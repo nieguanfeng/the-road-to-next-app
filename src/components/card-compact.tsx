@@ -1,4 +1,3 @@
-import { TicketCreateForm } from "@/features/ticket/compoents/ticket-create-form";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 
 type CardCompactProps = {
@@ -8,7 +7,7 @@ type CardCompactProps = {
   className?: string;
   footer?: React.ReactNode;
 }
-const CardCompact = ({title, description, content, className, footer}:CardCompactProps) => {
+const CardCompact = ({content, footer}:CardCompactProps) => {
   return (
     <Card className='w-full max-w-[420px] self-center'>
         <CardHeader>
@@ -16,7 +15,7 @@ const CardCompact = ({title, description, content, className, footer}:CardCompac
               Create Ticket
             </CardTitle>
             <CardDescription>
-              A new ticket will be created
+              A new ticket will be createds
             </CardDescription>
         </CardHeader>
         <CardContent>
