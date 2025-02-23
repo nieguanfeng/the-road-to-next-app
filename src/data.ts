@@ -15,7 +15,7 @@ const initalTickets = [
     id: "3",
     title: "Ticket 3",
     content: "This is the second ticket",
-    status: "IN_PROCESS" as const
+    status: "IN_PROGRESS" as const
   }
 ];
 

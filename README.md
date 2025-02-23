@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+npm install next-themes
+npm install prisma --save-dev   
+npx prisma db push
+
+
+npm install tsx --save-dev
+
+npx prisma studio
+
+npx shadcn@latest add button
+npx shadcn@latest add card
+npx shadcn@latest add separator
+npx shadcn@latest add label
+npx shadcn@latest add input
+npx shadcn@latest add textarea
